@@ -1,0 +1,25 @@
+# Config godeta de ncmpcpp by Maka Albarn
+
+# Epic ncmpcpp config by Maka Albarn
+
+mpd_music_dir = "/home/albarn/Music"
+
+#Display/Visualizacion
+
+playlist_display_mode = "columns"
+search_engine_display_mode = "columns"
+browser_display_mode = "columns"
+playlist_editor_display_mode = "columns"
+
+#Interfaz Alternativa/Alternative Interface
+user_interface = "alternative"
+
+#Colors/Colores
+
+colors_enabled = "yes"
+main_window_color = "white"
+volume_color = "black:b"
+header_window_color = "white"
+statusbar_color = "white"
+progressbar_color = "black"
+progressbar_elapsed_color = "white"
