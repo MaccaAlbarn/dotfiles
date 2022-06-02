@@ -1,0 +1,71 @@
+window:
+  padding:
+    x: 10 
+    y: 10
+
+scrolling:
+  history: 10000
+  multiplier: 2
+
+    #font:
+    #basicamente la parte en la que la puedes liar un poquito
+    #estupido perkin qlo caraepico...oh ctm soy yo 
+
+font:
+  normal:
+    family: JetBrains Mono
+    style: Medium
+
+  bold:
+    family: JetBrains Mono
+    style:  Bold
+  
+  italic:
+    family: JetBrains Mono
+    style: Italic
+
+  bold_italic:   
+    family: JetBrains Mono
+    style: BoldItalic 
+size: 11
+draw_bold_text_with_bright_colors: true
+class:
+  instance: Alacritty
+  general: Alacritty
+
+cursor:
+  style:
+    shape: Underline
+    blinking: on
+    blinking-interval: 750
+
+live_config_reload: true
+
+
+# BEGIN ACE
+colors:
+  primary:
+    background: '#161316'
+    foreground: '#ebe9e0'
+  cursor:
+    text:       '#161316'
+    cursor:     '#ebe9e0'
+  normal:
+    black:      '#161316'
+    red:        '#E3CD6A'
+    green:      '#6C7B84'
+    yellow:     '#798E95'
+    blue:       '#899E9E'
+    magenta:    '#87A3A7'
+    cyan:       '#E8DA97'
+    white:      '#ebe9e0'
+  bright:
+    black:      '#a4a39c'
+    red:        '#E3CD6A'
+    green:      '#6C7B84'
+    yellow:     '#798E95'
+    blue:       '#899E9E'
+    magenta:    '#87A3A7'
+    cyan:       '#E8DA97'
+    white:      '#ebe9e0'
+# END ACE
